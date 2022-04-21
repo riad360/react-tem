@@ -1,0 +1,74 @@
+.team-wrap .box {
+    padding-bottom: 10px;
+    transition: all ease-in-out .3s;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.team-wrap .box .team-img img {
+    position: relative;
+    border-radius: 20px;
+    transition: all ease-in-out .3s;
+    z-index: -1;
+}
+
+.team-wrap .box:hover .team-img img {
+    transform: scale(1.02);
+    transition: all 1s ease-out;
+}
+
+.team-wrap .box .team-img .social {
+    margin-top: -17px;
+}
+
+.team-wrap .box .team-img .social ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+.team-wrap .box .team-img .social ul li a {
+    display: block;
+    background: linear-gradient(120deg, #5ad0ff 0%, #3224e9 100%);
+    color: #fff;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: all ease-in-out .3s;
+}
+
+.team-wrap .box .team-img .social ul li a:hover {
+    transform: translateY(-2px);
+}
+
+.team-wrap .box .team-content h2 {
+    margin-bottom: 0;
+}
+
+.team-wrap .box .team-content h2 a {
+    font-size: 30px;
+    color: #252525;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0px;
+    transition: all ease-in-out .3s;
+}
+
+.team-wrap .box .team-content h2 a:hover {
+    color: #ff7d00;
+
+}
+
+
+.team-wrap .box .team-content p {
+    text-align: center;
+    font-size: 17px;
+}
